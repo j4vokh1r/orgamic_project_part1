@@ -1,0 +1,121 @@
+.high_quality__inner{
+    position: relative;
+}        
+.high_quality__top{
+    padding: 70px 0;
+    border: 1.5px solid #ddd;
+    background-color: #fff;
+    position: absolute;
+    top: -297px;
+    left: 0;
+}
+.high_quality__top_lists{
+    display: flex;
+    justify-content: space-between;
+}
+
+.high_quality__top__link{
+    display: flex;
+    align-items: center;
+}
+.high_quality__top__link img{
+    margin-right: 20px;
+}
+.for_1{
+    margin-left: 15px;
+}
+.high_quality__top__link{
+    margin-right: 30px;
+    padding-right: 37px;
+    border-right: 1px solid #ddd;
+}
+.high_quality__top__link:last-child{
+    border-right: none;
+    margin-right: 0;
+}
+.high_quality__top__text .title{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    margin-bottom: 6px;
+}
+.high_quality__top__text .subtitle{
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.high_quality__items{
+    display: flex;
+    margin-top: 177px;
+    margin-bottom: 100px;
+}
+.high_quality__items img{
+    margin-right: 22px;
+    margin-top: 20px;
+}
+
+.high_quality__items__card__img{
+    margin-right: 3px;
+    margin-bottom: 20px;
+    /* margin-top: 20px; */
+}
+.high_quality__items__card__text{
+    width: 268px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    color: #76A713;
+    border: 1.5px dashed rgba(118, 167, 19, 0.5);
+    padding: 13px 54px;
+}
+.high_quality__items__card__text span{
+    font-size: 37px;
+}
+
+.high_quality__items__desc__title{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 89px;
+    text-transform: uppercase;
+    margin-bottom: 39px;
+}
+.high_quality__items__desc__title span{
+    margin-bottom: 20px;
+}
+
+.high_quality__items__desc__subtitle{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #888888;
+    margin-bottom: 35px;
+}
+
+.high_quality__items__desc__text{
+    font-family: Gilroy;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #AAAAAA;
+    margin-bottom: 7px;
+    padding-left: 20px;
+    border-left: 2px solid #76A713;
+}
+.high_quality__items__desc__name{
+    font-family: 'Oswald';
+    font-size: 18px;
+    line-height: 140%;
+    margin-bottom: 5px;
+}
+.high_quality__items__desc__job{
+    font-size: 13px;
+    line-height: 140%;
+    color: #AAAAAA;
+}

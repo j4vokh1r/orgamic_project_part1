@@ -1,0 +1,247 @@
+// Popular 
+
+.popular{
+    padding: {
+        top: 77px;
+        bottom: 100px;
+    }
+    // margin-bottom: 230px;
+    background-color: #ffffff;
+
+        &__heading{
+            font: {
+                family: Oswald;
+                style: normal;
+                weight: 600;
+                size: 60px;
+            }
+            line-height: 150%;            
+            text: {
+                align: center;
+                transform: uppercase;
+            }
+            color: #191D28;
+        }
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        margin-bottom: 30px;
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    &__link {
+        text-decoration: none;
+        display: inline-block;
+        padding: 4px 17px 5px 17px;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+        background-color: #ebebeb;
+        text-transform: capitalize;
+        cursor: pointer;
+        transition: 0.3s all linear;
+
+        &__active {
+            background-color: #76a713;
+            color: #ffffff;
+        }
+
+        &_food {
+            padding: 4px 18px 5px 19px;
+        }
+
+        &_organic {
+            padding: 4px 14px 5px;
+        }
+
+        &_fruits {
+            padding: 4px 17px 5px 18px;
+        }
+
+        &_health {
+            padding: 4px 13px 5px 14px;
+        }
+
+        
+    }
+
+    &__link:hover {
+        transform: scale(1.1);
+        background-color: #76a713;
+        color: #ffffff;
+    }
+
+}
+
+.top__box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    background-color: #FFFFFF;
+    position: relative;
+    margin-bottom: 30px;
+
+    &:hover{
+        box-shadow: 0px 20px 50px 2px rgba(0, 0, 0, 0.1);
+        
+
+        & .images__item{
+            // box-shadow: 0px 0px 0px 2px #76a713 inset;
+            box-shadow: 0px 0px 0px 3px #76a713 inset;
+        }
+
+        & .card__icon_btn{
+            visibility: visible;
+        }
+
+        & .off{
+            display: flex;
+        }
+    }
+
+    &__icon_btn{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        visibility: hidden;
+        justify-content: space-between;
+        height: 140px;
+        transition: 0.3 all ease;
+
+
+    }
+
+    &__btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        background-color: #f5f5f5;
+        transition: 0.3 all ease;
+    }
+
+    
+    &__image{
+        filter: drop-shadow(0px 6px 15px rgba(0, 0, 0, 0.15));
+        margin-bottom: 71px;
+    }
+
+    &__image2{
+        margin-bottom: 77px;
+    }
+
+    &__image3{
+        margin-bottom: 25px;
+    }
+
+    &__inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f8f8f8;
+    }
+
+    &__heading{
+        margin-top: 21px;
+        margin-bottom: 9px;
+        font: {
+            style: normal;
+            weight: 500;
+            size: 24px;
+            family: Oswald;
+        }
+        line-height: 36px;
+        text-align: center;
+        color: #000000;
+
+    }
+
+    &__inner_price{
+        margin-bottom: 10px;
+
+        font: {
+            style: normal;
+            weight: 600;
+            size: 16px;
+            family: Oswald;
+        }
+        line-height: 24px;
+        text-align: center;
+        color: #76A713;
+    }
+
+    
+    &__link{
+        padding: 10px 17px 11px 18px;
+        margin: 30px;
+    }
+    
+}
+
+.images__item{
+    padding: 70px 39px 0 39px;
+    border-top: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    border-bottom: none;
+}
+
+.avocado__image_item{
+    padding: 81px 62px 0 62px;
+}
+
+.kiwi__image_item{
+    padding: 32px 43px 0 44px;
+}
+.price__delete{
+    font: {
+        style: normal;
+        size: 14px;
+    }
+    line-height: 21px;
+    color: #aaaaaa;
+    text-decoration: line-through;
+}
+
+.off{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 19px;
+    left: 0;
+    padding: 4px 10px 4px 11px;
+    background: #FF6600;
+    text-align: center;
+    
+
+    font: {
+        weight:600;
+        size: 11px;
+    }
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    overflow: hidden;
+    transition: 1s all ease;
+
+
+}

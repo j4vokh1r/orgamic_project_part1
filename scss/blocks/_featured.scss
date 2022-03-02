@@ -1,0 +1,171 @@
+.featured{
+   max-height: 910px;
+}
+.featured_bottom{
+    position: relative;
+}
+
+.featured_bottom__items{
+    display: flex;
+    justify-content: space-between;
+    background: {
+        image: url(../images/featuredbg.png);
+        repeat: no-repeat;
+        size: contain;
+        color: $green;
+    }
+    padding: 75px 45px 98px 56px;
+
+
+    .featured_bottom__list{
+        text-align: center;
+
+        .featured_bottom__list__number{
+            font-family: 'Oswald';
+            font-weight: bold;
+            font-size: 60px;
+            line-height: 150%;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .featured_bottom__list__text{
+            font-family: 'Gilroy';
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.featured_footer{
+    transform: translateY(-115px);
+}
+
+.featured_footer__item{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../images/testimonials.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    height: 740px;
+    padding-top: 1;
+
+    .featured_footer__right{
+        background-image: url(../images/featrightbg.png);
+        background-repeat: no-repeat;
+        // height: 740px;
+        background-position: right top;
+        width: 485px;
+        position: relative;
+
+    }
+}
+
+.featured_footer__right__box{
+    position: absolute;
+    bottom: 70px;
+    left: -211px;
+    background-color: $white;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 580px;
+    max-height: 392px;
+    padding: 53px 33px 22px 37px;
+    .featured_footer__right__box__text{
+        font-family: 'Gilroy';
+        font-style: italic;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 170%;
+        text-align: center;
+    }
+}
+
+.featured_footer__right__img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        border-radius: 50%;
+        margin-top: 22px;
+        margin-bottom: 8px;
+    }
+
+    .name{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 170%;
+        color: #000000;
+    }
+
+    .surname{
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-size: 11px;
+        line-height: 170%;
+        color: #888888;
+        margin-bottom: 6px;
+    }
+}
+
+.featured_footer__right__box__buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    img{
+        margin-right: 1px;
+    }
+}
+
+.featured_footer__right__box__slider{
+    display: flex;
+    justify-content: center;
+    span{
+        width: 8px;
+        height: 8px;
+        border-radius: 4px;
+        background-color: transparent;
+        border: 1px solid #aaa;
+        margin-right: 7px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .featured_footer__item{
+//     display: flex;
+// }

@@ -1,0 +1,202 @@
+
+.header__top{
+    border-bottom: 1px solid #eeeeee;
+}
+
+.header-top__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 16px;
+}
+
+.header__addr{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.header__addr-text{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.header__addr-text::before{
+    content: "";
+    width: 14px;
+    height: 16px;
+    display: block;
+    background-image: url("./../images/lokatsiya.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 7px;
+}
+
+.header__addr-email{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.header__addr-email::before{
+    content: "";
+    width: 20px;
+    height: 16px;
+    display: block;
+    background-image: url("./../images/email.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 7px;
+}
+
+.header-top__right{
+    display: flex;
+    align-items: center;
+}
+
+.header-top__right-langs{
+    outline: 0;
+    appearance: none;
+    width: 57px;
+    border: none;
+    background-image: url("./../images/down-arrow.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 500;
+}
+
+.header-top__right__socials{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 31px;
+}
+
+.socials__content:not(:last-child) {
+    margin-right: 20px;
+}
+
+/* Header bottom */
+
+.header-bottom {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header-bottom__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-image {
+    display: block;
+    width: 217px;
+    height: 50px;
+}
+
+.header-bottom__navigation{
+    max-width: 650px;
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    margin-right: 48px;
+    display: flex;
+}
+
+.nav__link{
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 34px;
+    white-space: nowrap;
+}
+
+.nav__link:last-child{
+    margin-right: 0;
+}
+
+.link-active{
+    color: #76a713;
+}
+
+.login-btn{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    padding: 10px 30px;
+    background-color: #76a713;
+    text-decoration: none;
+}
+
+.login__button{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    padding: 10px 30px;
+    background-color: #76a713;
+    text-decoration: none;
+}
+
+.search__btn{
+    border: none;
+    background-image: url("./../images/search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 14px;
+    background-color: #eeeeee;
+    margin: 0 10px;
+    padding: 20px;
+}
+
+.korzinka{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: none;
+    background-color: #eeeeee;
+}
+
+.korzinka__image{
+    position: absolute;
+    top: 17px;
+    left: 13px;
+}
+
+.korzinka__value{
+    position: absolute;
+    top: 8px;
+    right: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14px;
+    height: 13px;
+    background-color: #76a713;
+    color: #ffffff;
+    font-size: 8px;
+    line-height: 10px;
+    font-weight: 600;
+    border-radius: 50%;
+}
+/* and off header */

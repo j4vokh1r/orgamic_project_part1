@@ -1,0 +1,58 @@
+.main{
+    background: rgba(118, 167, 19, 0.31);
+    padding: 82px 0 178px 0;
+}
+.for_btn{
+    position: relative;
+}
+.scroll_buttons_after{
+   border: none;
+   padding: 15px;
+   background-color: #76A713;
+   cursor: pointer;
+   position: absolute;
+   top: 240px;
+   left: -57px;
+   border: 1px solid #76A713;
+}
+
+.scroll_buttons_before{
+    border: none;
+    padding: 15px;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 240px;
+    right: -57px;
+    border: 1px solid #76A713;
+ }
+
+
+.main-item{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.main-item__title h1{   
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 110px;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+.main-item__title h1 span{
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 74px;
+    text-transform: uppercase;
+    color: #76A713;
+    margin-bottom: 1px;
+}
+.main-item__btn a{
+    padding: 15px 38px;
+}
